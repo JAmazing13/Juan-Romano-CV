@@ -93,11 +93,6 @@ h2 {
     margin-bottom: 5px; /* Espacio entre elementos de la lista */
 }
 
-
-.about p {
-    text-align: justify;
-}
-
 .contact a {
     color: #2980b9;
     text-decoration: none;
@@ -128,12 +123,14 @@ h2 {
     padding-left: 0; /* Opcional: para alinear con el texto */
 }
 
+
 @media print {
     body {
-        background-color: #f4f8ff; /* Color de fondo que quieras para la impresión */
-        -webkit-print-color-adjust: exact; /* Ajuste para imprimir colores en algunos navegadores */
+        background-color: #f4f8ff;  /*Color de fondo que quieras para la impresión*/
+        -webkit-print-color-adjust: exact; /* Ajuste para imprimir colores en algunos navegadores*/
     }
 }
+
 
 @media (max-width: 768px) {
     .container {
@@ -167,4 +164,3 @@ h2 {
         font-size: 12px;
     }
 }
-
